@@ -8,4 +8,9 @@ API development done using Fast API
 * clone the repo
 * Install the following dependenices.
   * Install Fast API
+  
+  ```python
+  $ pip install fastapi
+  ```
+  
   * Install uvicorn for server
