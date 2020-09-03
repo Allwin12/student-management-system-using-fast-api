@@ -7,5 +7,5 @@ API development done using Fast API
 
 * clone the repo
 * Install the following dependenices.
-** Install Fast API
-** Install uvicorn for server
+  * Install Fast API
+  * Install uvicorn for server
