@@ -52,7 +52,7 @@ def get_school_by_id(id: int, db: Session = Depends(get_db)):
 @app.delete("/school/{id}")
 def delete_school_by_id(id: int, db: Session = Depends(get_db)):
     crud.delete_school_by_id(db, id)
-    return {"message": "class deleted successfully!"}
+    return {"message": "school deleted successfully!"}
 
 
 @app.put("/school/{id}")
@@ -90,7 +90,7 @@ def get_student_by_id(id: int, db: Session = Depends(get_db)):
 @app.delete("/student/{id}")
 def delete_student_by_id(id: int, db: Session = Depends(get_db)):
     crud.delete_student_by_id(db, id)
-    return {"message": "class deleted successfully!"}
+    return {"message": "student deleted successfully!"}
 
 
 @app.put("/student/{id}")
