@@ -9,7 +9,7 @@ API development done using Fast API
 * Install the following dependenices.
   * Install Fast API
   
-  ```python
+  ```terminal
   $ pip install fastapi
   ```
   
